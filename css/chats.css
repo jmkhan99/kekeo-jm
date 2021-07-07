@@ -1,0 +1,118 @@
+.chats-header {
+  padding-top: 2.5rem;
+  margin-bottom: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+.chats-header h1 {
+  margin-left: 1.2rem;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.chats-header__iconbox {
+  width: 35%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1rem;
+  position: relative;
+}
+.chats-header div i,
+.chats-header div svg {
+  color: black;
+  margin-left: 1rem;
+}
+.chats-header div i {
+  font-size: 1.1rem;
+}
+.chats-header div svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.comment-icon-plus {
+  position: absolute;
+  right: 4.7rem;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+}
+.chats-box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 5.5rem;
+}
+.chats-box__enterchat {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.chats-box__enterchat:hover {
+  cursor: pointer;
+}
+.chats-picture {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.chats-picture__kkobuck {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 35%;
+  margin: 1.1rem;
+}
+.chats-box__textbox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 1.5rem;
+}
+.chats-picture__name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.chats-picture__talk {
+  color: #999999;
+  font-size: 0.9rem;
+}
+.chats-box__timebox {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 1.3rem;
+}
+.chats-box__timebox__time {
+  margin-bottom: 0.5rem;
+  color: #999999;
+  font-size: 0.9rem;
+}
+.hidden-block {
+  background-color: white;
+  height: 33%;
+}
+.chats-nav__notification {
+  width: 1rem;
+  height: 1rem;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}

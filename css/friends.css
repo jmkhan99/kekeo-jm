@@ -1,0 +1,106 @@
+.friends-header {
+  margin-top: 2.5rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+}
+.friends-header h1 {
+  margin-left: 1.2rem;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.friends-header div {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 1rem;
+}
+.friends-header div i,
+.friends-header div svg {
+  color: black;
+  margin-left: 1.5rem;
+}
+.friends-names-channel-box {
+  margin-top: 5.5rem;
+}
+.friends-names {
+  text-align: center;
+  background-color: #fafafa;
+  line-height: 3rem;
+}
+.friends-names a i {
+  color: #d5d5d5;
+  margin-right: 0.28rem;
+}
+.friends-names a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.friends-picture,
+.friends-channel {
+  display: flex;
+  align-items: center;
+}
+.friends-picture__pocket1 {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 35%;
+  margin: 0.8rem 0.95rem;
+}
+.friends-channel-border {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 0 1.1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friends-channel-border-text {
+  color: #9f9f9f;
+  font-size: 0.85rem;
+}
+.friends-channel-border-chevron {
+  color: #9f9f9f;
+  font-size: 0.8rem;
+}
+.friends-picture__channel {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 35%;
+  margin: 1.1rem;
+}
+.friends-picture__name {
+  margin-left: 0.2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.friends-picture__channel-name {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.friends-picture_channel-chevron {
+  margin-left: auto;
+  margin-right: 1rem;
+  color: #9f9f9f;
+  font-size: 0.85rem;
+}
+.hidden-block {
+  display: block;
+  height: 1rem;
+}
+.w-6,
+h-6 {
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+}

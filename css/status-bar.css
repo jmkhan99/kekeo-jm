@@ -1,0 +1,35 @@
+.status-bar {
+  display: flex;
+  padding: 5px 5px;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 2;
+}
+.status-bar span {
+  font-size: 14px;
+}
+.status-bar > div {
+  width: 33%;
+}
+.status-bar div:first-child {
+  display: flex;
+  align-items: center;
+}
+.status-bar div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar div:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.status-bar > div > span {
+  margin-right: 0.5rem;
+}
+.status-bar div:nth-child(3) .fas {
+  margin-right: 0.5rem;
+}

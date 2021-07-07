@@ -1,0 +1,91 @@
+.more-redpoint {
+  text-decoration: none;
+  color: red;
+  position: absolute;
+  font-size: 1.5rem;
+  right: 0.2rem;
+  bottom: 1.1rem;
+}
+.more-redpoint-relative {
+  position: relative;
+}
+.more--size {
+  font-size: 2rem;
+}
+.exclmation--more-color {
+  color: red;
+  font-size: 0.8rem;
+  margin-left: 0.1rem;
+}
+.more--pic-size {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+.more-talkcircle {
+  display: flex;
+  font-size: 0.5rem;
+  align-items: center;
+}
+.more-iconbox {
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 0;
+}
+.more-iconbox:nth-child(3) {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+.more-iconbox i {
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
+}
+.more-iconbox div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-iconbox div span {
+  font-size: 0.7rem;
+  color: #7f7f7f;
+}
+.more-suggestions {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e0e0e0;
+  width: 90%;
+  margin: 0 auto;
+}
+.more-suggestions__text {
+  margin: 1.9rem 0;
+}
+.more-suggestions__text span {
+  display: flex;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.more-suggestions__img {
+  display: flex;
+  justify-content: space-around;
+}
+.more-suggestions__img img {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 0.4rem;
+  border-radius: 20%;
+}
+.more-suggestions__img div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-suggestions__img div span {
+  display: flex;
+  justify-content: center;
+  font-size: 0.7rem;
+  color: #7f7f7f;
+}
+.more-hiddenbox {
+  height: 20%;
+}

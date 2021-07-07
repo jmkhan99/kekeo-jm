@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <title>Chats - KekeoTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div>
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div><span>18:43</span></div>
+      <div>
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+          ></path>
+        </svg>
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="chats-header">
+      <h1>Chats</h1>
+      <div class="chats-header__iconbox">
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"
+          ><i class="far fa-comment"></i
+          ><span class="comment-icon-plus">+</span></a
+        >
+        <a href="#"><i class="fas fa-music"></i></a>
+        <a href="#"
+          ><svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+            ></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+            ></path></svg
+        ></a>
+      </div>
+    </header>
+    <main class="chats-box">
+      <div
+        onclick="location.href='chatscreen.html'"
+        class="chats-box__enterchat"
+      >
+        <div class="chats-picture">
+          <img class="chats-picture__kkobuck" src="img/kkobuck.jpg" />
+        </div>
+        <div class="chats-box__textbox">
+          <span class="chats-picture__name">Kkobugi</span>
+          <span class="chats-picture__talk">KKobug~</span>
+        </div>
+        <div class="chats-box__timebox">
+          <span class="chats-box__timebox__time">18:22</span>
+          <span class="chats-nav__notification">1</span>
+        </div>
+      </div>
+    </main>
+    <nav class="friends-nav">
+      <ul>
+        <li>
+          <a href="friends.html"><i class="far fa-user fa-lg"></i></a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="friends-nav__notification">1</span
+            ><i class="fas fa-comment fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="search.html"><i class="fas fa-search fa-lg"></i></a>
+        </li>
+        <li>
+          <div></div>
+          <a href="more.html"><i class="fas fa-ellipsis-h fa-lg"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="toobig">
+      <span
+        >화면이 너무 큽니다.<br />
+        이 페이지는 핸드폰 크기에 최적화되었습니다.</span
+      >
+    </div>
+  </body>
+</html>

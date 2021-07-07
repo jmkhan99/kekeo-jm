@@ -1,0 +1,56 @@
+.friends-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  padding: 1.5rem 0;
+  background-color: #f9f9fa;
+  border-top: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+}
+.friends-nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.friends-nav i {
+  color: black;
+}
+.friends-nav__notification {
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0.85rem;
+  bottom: 0.6rem;
+  font-size: 0.7rem;
+}
+.friends-nav li:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.friends-nav li:nth-child(4) {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.friends-nav li:last-child div {
+  width: 0.21rem;
+  height: 0.21rem;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  left: 1.22rem;
+  bottom: 1.02rem;
+}

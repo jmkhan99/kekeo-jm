@@ -1,0 +1,82 @@
+.welcome-header {
+  margin-top: 5.7rem;
+  margin-bottom: 3.1rem;
+}
+.welcome-header__title {
+  margin-bottom: 1.8rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.welcome-header__text {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #808080;
+  line-height: 1.63rem;
+}
+.welcome-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-form > input {
+  width: 85%;
+}
+.welcome-form > input::placeholder {
+  font-size: 0.95rem;
+}
+.welcome-form__text {
+  border: none;
+  border-bottom: 1px solid #808080;
+  font-size: 1rem;
+  height: 3rem;
+}
+.welcome-form__text:focus {
+  outline: none;
+}
+.welcome-form__password {
+  margin-bottom: 1.9rem;
+}
+.welcome-form__btn {
+  border: none;
+  border-radius: 5%;
+  font-size: 1rem;
+  height: 3rem;
+}
+.welcome-form__btn:active,
+.welcome-form__btn:hover {
+  background-color: #f9e31a;
+}
+.welcome-form__submit {
+  margin-bottom: 1rem;
+}
+.welcome-form__signup {
+  margin-bottom: 1.3rem;
+}
+.welcome-form__find {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+.toobig {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9e31a;
+}
+.toobig span {
+  width: 70%;
+  height: 30%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .toobig {
+    display: none;
+  }
+}

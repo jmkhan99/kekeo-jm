@@ -1,0 +1,147 @@
+.search-search {
+  margin-right: 0.5rem;
+}
+.search-header div div {
+  position: relative;
+  z-index: 1;
+}
+.search-header div i,
+.search-header div svg {
+  color: black;
+  margin-left: 1.5rem;
+}
+.find-redpoint {
+  font-size: 25px;
+  position: absolute;
+  color: red;
+  right: 0.2rem;
+  bottom: 0.9rem;
+}
+.find-icon {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.2rem 1rem;
+}
+.find-icon div {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.find-icon i {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.find-icon span {
+  text-align: center;
+}
+.find-text {
+  margin: 1.3rem auto 0 auto;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  color: #a2a2a2;
+  height: 24vh;
+  width: 90%;
+  font-size: 0.8rem;
+}
+.find-text__recommended {
+  margin-top: 1rem;
+}
+.find-text__no-recommended {
+  text-align: center;
+  margin: auto 0 auto 0;
+}
+.search-main {
+  margin-top: 5.5rem;
+}
+.search-openchat {
+  width: 90%;
+  margin: 0 auto 0 auto;
+}
+.search-openchat__title {
+  display: flex;
+  justify-content: space-between;
+  color: #7f7f7f;
+  font-size: 0.8rem;
+  align-items: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.3rem;
+}
+.search-openchat__title span:first-child {
+  display: block;
+}
+.search-openchat__title span:nth-child(2) {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+.search-openchat__box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-openchat__box1:nth-child(2) {
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.search-openchat__box1text span:first-child {
+}
+.search-openchat__box1text__last {
+  display: flex;
+  align-items: center;
+  height: 1.1rem;
+  margin-top: 0.5rem;
+}
+.search-openchat__box1text span:first-child {
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+.search-openchat__box1text span:nth-child(3) {
+  color: #7f7f7f;
+  line-height: 1rem;
+  font-size: 0.9rem;
+}
+.search-openchat__box1text div span:nth-child(2) {
+  color: #7f7f7f;
+  font-size: 0.8rem;
+  border-right: 1px solid #7f7f7f;
+  padding: 0 0.4rem;
+}
+.search-openchat__box1text span:last-child {
+  color: #ff7bcc;
+  font-size: 0.8rem;
+  padding: 0 0.4rem;
+}
+.search-openchat__box1text img {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 35%;
+}
+.search-openchat_imagebox {
+  position: relative;
+}
+.search-openchat_imagebox div:first-child {
+  width: 2.9rem;
+  height: 1.1rem;
+  border-radius: 1.6rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 3.9rem;
+  right: 0.1rem;
+  color: white;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-openchat__box1img img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10%;
+}
+.search-openchat__hiddenbox {
+  height: 5rem;
+}

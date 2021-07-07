@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import "reset.css";
+@import "status-bar.css";
+@import "nav.css";
+@import "welcome.css";
+@import "friends.css";
+@import "chats.css";
+@import "search.css";
+@import "more.css";
+@import "settings.css";
+@import "chatscreen.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-tap-highlight-color: transparent;
+}
