@@ -42,12 +42,11 @@
   font-size: 1rem;
   height: 3rem;
 }
-.welcome-form__btn:active {
-  background-color: var(--darkblue_color);
-}
-
 .welcome-form__btn:hover {
   background-color: var(--skyblue_color);
+}
+.welcome-form__btn:active {
+  background-color: var(--darkblue_color);
 }
 .welcome-form__submit {
   margin-bottom: 1rem;
