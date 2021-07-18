@@ -90,15 +90,15 @@
   height: 20%;
 }
 
-.search_icon {
-  transition: transform 0.5s ease-in-out;
-}
-
 .comment_icon_a {
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 .comment_icon_a:hover {
   transform: scale(1.2);
+}
+
+.search_icon {
+  transition: transform 0.3s ease-in-out;
 }
 
 .search_icon:hover {
