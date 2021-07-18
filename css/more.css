@@ -90,6 +90,21 @@
   height: 20%;
 }
 
+.search_icon {
+  transition: transform 0.5s ease-in-out;
+}
+
+.comment_icon_a {
+  transition: transform 0.5s ease-in-out;
+}
+.comment_icon_a:hover {
+  transform: scale(1.2);
+}
+
+.search_icon:hover {
+  transform: scale(1.2);
+}
+
 .music_icon:hover {
   animation: dance 1.2s ease-in-out infinite;
 }

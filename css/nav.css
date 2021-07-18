@@ -29,7 +29,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 0.85rem;
+  left: 0.7rem;
   bottom: 0.6rem;
   font-size: 0.7rem;
   animation: bounce 1s ease-in-out infinite;
@@ -39,7 +39,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  transition: transform 1s eas-in-out;
+  transition: transform 0.05s ease-in-out;
 }
 
 .friends-nav li:nth-child(2):hover {
@@ -62,7 +62,7 @@
 }
 
 .friends-nav i:not(:nth-child(2)) {
-  transition: transform 5s eas-in-out;
+  transition: transform 0.05s ease-in-out;
 }
 
 .friends-nav i:hover:not(:nth-child(2)) {
