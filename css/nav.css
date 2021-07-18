@@ -4,8 +4,8 @@
   width: 100%;
   height: 10%;
   padding: 1.5rem 0;
-  background-color: #f9f9fa;
-  border-top: 1px solid #d9d9d9;
+  background-color: var(--lightblue_color);
+  border-top: 1px solid var(--darkblue_color);
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -32,12 +32,18 @@
   left: 0.85rem;
   bottom: 0.6rem;
   font-size: 0.7rem;
+  animation: bounce 1s ease-in-out infinite;
 }
 .friends-nav li:nth-child(2) {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  transition: transform 1s eas-in-out;
+}
+
+.friends-nav li:nth-child(2):hover {
+  transform: scale(1.2);
 }
 .friends-nav li:nth-child(4) {
   position: relative;
@@ -53,4 +59,24 @@
   border-radius: 50%;
   left: 1.22rem;
   bottom: 1.02rem;
+}
+
+.friends-nav i:not(:nth-child(2)) {
+  transition: transform 5s eas-in-out;
+}
+
+.friends-nav i:hover:not(:nth-child(2)) {
+  transform: scale(1.2);
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-35%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

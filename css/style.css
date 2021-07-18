@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import "variable.css";
 @import "reset.css";
 @import "status-bar.css";
 @import "nav.css";

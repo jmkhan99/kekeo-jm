@@ -1,9 +1,9 @@
 .chatscreen-status-bar {
-  background-color: #abc1d1;
+  background-color: var(--lightblue_color);
 }
 
 .chatscreen-body {
-  background-color: #abc1d1;
+  background-color: var(--lightblue_color);
 }
 .chatscreen-headbox {
   padding: 2.3rem 1rem 1rem 1rem;
@@ -14,7 +14,7 @@
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  background-color: #abc1d1;
+  background-color: var(--lightblue_color);
 }
 .chatscreen-chevronlink {
   width: 33%;

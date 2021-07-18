@@ -69,8 +69,8 @@
   justify-content: space-around;
 }
 .more-suggestions__img img {
-  width: 3rem;
-  height: 3rem;
+  width: 3.5rem;
+  height: 3.5rem;
   margin-bottom: 0.4rem;
   border-radius: 20%;
 }
@@ -88,4 +88,27 @@
 }
 .more-hiddenbox {
   height: 20%;
+}
+
+.music_icon:hover {
+  animation: dance 1.2s ease-in-out infinite;
+}
+
+.setting_icon {
+  transition: transform 1s ease-in-out;
+}
+.setting_icon:hover {
+  transform: rotateZ(360deg);
+}
+
+@keyframes dance {
+  0% {
+    transform: rotateZ(0);
+  }
+  50% {
+    transform: rotateZ(45deg);
+  }
+  100% {
+    transform: rotateZ(0);
+  }
 }
